@@ -1,0 +1,68 @@
+body{
+background-color: pink;
+margin: 0;
+}
+
+#trt{
+ background-color:lightsalmon;
+ display: grid;
+ place-content: center;
+ height: 100vh; 
+}
+
+#txt{
+ text-align: center;
+}
+
+#bp{
+    font-family: 'Fondamento', cursive;
+    font-size: 5em;
+}
+
+u{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.2em;
+}
+#rm{
+   display: grid;
+   height:80vh;
+   grid-template-rows: auto 1fr 1fr 1fr;
+}  
+.one{
+  color: white;  
+  background-color: navy;
+  padding: 8px;
+  text-decoration:none;
+}
+
+
+#bibi{
+  
+    display: flex;
+    justify-content:space-between;
+    position: sticky;
+    top: 0px;
+}
+.one:hover {
+   color: gold;
+   background-color: yellowgreen;
+}
+#er{
+height:250px;   
+}
+
+#po{
+    height:300px;
+}
+#2pm{
+   height:200px;
+}
+#ty{
+  font-size: 2.3em;  
+}
+
+#four{
+    display:flex;
+}
